@@ -16,7 +16,7 @@ import net.neoforged.neoforge.event.server.ServerStoppingEvent;
 
 @Mod(tpaMod.MODID)
 public class tpaMod {
-    public static final String MODID = "tpamod_neoforge_1.21.4";
+    public static final String MODID = "tpamod";
 
     public tpaMod(IEventBus modEventBus) {
         // 注册 Mod 事件
