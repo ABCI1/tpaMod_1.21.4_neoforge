@@ -1,5 +1,5 @@
 modLoader="javafml"
-loaderVersion="[${neo_version},)"  # 使用变量
+loaderVersion="[${neo_version},)"
 license="${mod_license}"
 
 [[mods]]

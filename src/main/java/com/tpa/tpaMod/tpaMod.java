@@ -4,6 +4,7 @@ import com.tpa.tpaMod.commands.TpAcceptCommand;
 import com.tpa.tpaMod.commands.TpDenyCommand;
 import com.tpa.tpaMod.commands.TpaCommand;
 import com.tpa.tpaMod.commands.TpaHereCommand;
+import com.tpa.tpaMod.commands.TpsCommand;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.fml.common.Mod;
 import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
@@ -15,7 +16,7 @@ import net.neoforged.neoforge.event.server.ServerStoppingEvent;
 
 @Mod(tpaMod.MODID)
 public class tpaMod {
-    public static final String MODID = "tpamod";
+    public static final String MODID = "tpamod_neoforge_1.21.4";
 
     public tpaMod(IEventBus modEventBus) {
         // 注册 Mod 事件
@@ -48,5 +49,6 @@ public class tpaMod {
         TpaHereCommand.register(event.getDispatcher());
         TpAcceptCommand.register(event.getDispatcher());
         TpDenyCommand.register(event.getDispatcher());
+        TpsCommand.register(event.getDispatcher());
     }
 }
