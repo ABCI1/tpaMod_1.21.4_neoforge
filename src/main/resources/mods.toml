@@ -1,0 +1,10 @@
+modLoader="javafml"
+loaderVersion="[${neo_version},)"  # 使用变量
+license="${mod_license}"
+
+[[mods]]
+modId="${mod_id}"          # Mod ID
+version="${mod_version}"    # Mod 版本
+displayName="${mod_name}"   # 显示名称
+authors="${mod_authors}"     # 作者
+description='''${mod_description}''' # 介绍
